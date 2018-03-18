@@ -1,5 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Login from './pages/Login'
+import Signup from './pages/Signup'
+import Dashboard from './pages/Dashboard'
 
 let Home = () => {
   return (
@@ -14,6 +17,9 @@ let Home = () => {
         <li>Basket Details</li>
         <li>Payment Process</li>
       </ul>
+      <Login />
+      <Signup />
+      <Dashboard />
     </div>
   )
 }
