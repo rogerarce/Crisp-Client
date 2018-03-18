@@ -1,0 +1,39 @@
+{
+  "name": "crisp-front",
+  "version": "1.0.0",
+  "description": "client side for crisp app",
+  "main": "index.js",
+  "author": "sean arce",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "start": "webpack-dev-server"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "flow"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
